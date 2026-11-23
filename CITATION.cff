@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code, calculator or data, please cite the review and this repository."
 title: "perovskite-tropical-stability: stress-budget model, data and calculator for converting perovskite stability tests into tropical field years"
 version: 1.0.0
+doi: 10.5281/zenodo.24457358
 date-released: 2026-11-23
 license: MIT
 repository-code: "https://github.com/savisha3/perovskite-tropical-stability"

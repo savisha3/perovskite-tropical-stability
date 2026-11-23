@@ -10,6 +10,8 @@ equivalent to at a given site and mounting, using ten years of hourly NASA POWER
 
 **Calculator (no installation):** https://savisha3.github.io/perovskite-tropical-stability/
 
+**Archived version (v1.0.0):** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24457358.svg)](https://doi.org/10.5281/zenodo.24457358)
+
 ## What is in this repository
 
 | Path | Content |
@@ -61,8 +63,8 @@ To check the browser calculator against the same values: `node tests/check_js_mo
 
 ## How to cite
 
-Please cite the review and this repository (see `CITATION.cff`; an archived version with a DOI is
-on Zenodo). Please also cite the NASA POWER Project when using the weather data.
+Please cite the review and this repository (see `CITATION.cff`; version 1.0.0 is archived on Zenodo,
+https://doi.org/10.5281/zenodo.24457358). Please also cite the NASA POWER Project when using the weather data.
 
 ## Licence
 
