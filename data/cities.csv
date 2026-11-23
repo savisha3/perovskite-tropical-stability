@@ -1,0 +1,21 @@
+city,country,file,lat,lon,tilt,koppen,time_standard
+Kuala Lumpur,Malaysia,data/weather/kuala_lumpur.csv,3.14,101.69,10,Af,LST
+Penang,Malaysia,data/weather/penang.csv,5.41,100.33,10,Af,LST
+Alor Setar,Malaysia,data/weather/alor_setar.csv,6.12,100.37,10,Af,LST
+Kota Bharu,Malaysia,data/weather/kota_bharu.csv,6.13,102.24,10,Af,LST
+Kuching,Malaysia,data/weather/kuching.csv,1.55,110.34,10,Af,LST
+Kota Kinabalu,Malaysia,data/weather/kota_kinabalu.csv,5.98,116.07,10,Af,LST
+Singapore,Singapore,data/weather/singapore.csv,1.35,103.82,10,Af,LST
+Jakarta,Indonesia,data/weather/jakarta.csv,-6.21,106.85,10,Af,LST
+Surabaya,Indonesia,data/weather/surabaya.csv,-7.25,112.75,10,Aw,LST
+Bandung,Indonesia,data/weather/bandung.csv,-6.91,107.61,10,Am,LST
+Bangkok,Thailand,data/weather/bangkok.csv,13.76,100.5,14,Aw,LST
+Chiang Mai,Thailand,data/weather/chiang_mai.csv,18.79,98.98,19,Aw,LST
+Ho Chi Minh City,Vietnam,data/weather/ho_chi_minh_city.csv,10.82,106.63,11,Aw,LST
+Hanoi,Vietnam,data/weather/hanoi.csv,21.03,105.85,21,Cwa,LST
+Manila,Philippines,data/weather/manila.csv,14.6,120.98,15,Am,LST
+Phnom Penh,Cambodia,data/weather/phnom_penh.csv,11.56,104.92,12,Aw,LST
+Yangon,Myanmar,data/weather/yangon.csv,16.84,96.17,17,Am,LST
+Miami,United States,data/weather/miami.csv,25.76,-80.19,25,Am,LST
+Riyadh,Saudi Arabia,data/weather/riyadh.csv,24.71,46.68,25,BWh,UTC
+Freiburg,Germany,data/weather/freiburg.csv,47.99,7.85,35,Cfb,LST

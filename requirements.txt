@@ -1,0 +1,3 @@
+numpy
+pandas
+pvlib>=0.10

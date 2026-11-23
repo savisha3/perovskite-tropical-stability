@@ -1,0 +1,389 @@
+ID,DOI,First author,Year,Journal,Device,Test,Test temperature (°C),Duration,Unit,Metric,Value,Encapsulation mentioned,Converted,Field years KL open rack,Field years KL rooftop,Field years Freiburg open rack
+0,10.1016/j.joule.2026.102588,Sun N.,2026,Joule,Single-junction,Light + heat,,1000,h,Retention (%),91.8,not stated,no,,,
+1,10.1016/j.joule.2026.102588,Sun N.,2026,Joule,Single-junction,Light + heat,100.0,200,h,T80 (h),88.0,not stated,yes,2.39,1.01,6.17
+2,10.1021/acsami.6c03372,Wang W.,2026,ACS Applied Materials and Interfaces,Single-junction,Light + heat,,912,h,Retention (%),92.65,not stated,no,,,
+3,10.1038/s41560-024-01689-2,Dong B.,2025,Nature Energy,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),96.0,not stated,yes,13.03,14.15,50.56
+4,10.1038/s41560-024-01689-2,Dong B.,2025,Nature Energy,Single-junction,Thermal cycling,,1200,c,Retention (%),97.0,not stated,yes,65.67,27.91,73.02
+5,10.1021/acsami.4c21673,Liu H.,2025,ACS Applied Materials and Interfaces,Single-junction,Damp heat 85/85,85.0,2136,h,Retention (%),83.0,not stated,yes,13.92,15.11,54.0
+6,10.1021/acs.nanolett.5c06186,Feng Y.,2026,Nano Letters,Single-junction,Light + heat,,2000,h,Retention (%),93.0,not stated,no,,,
+7,10.1039/d3ee03405d,Li X.,2023,Energy and Environmental Science,Single-junction,Light + heat,85.0,300,h,Retention (%),88.5,not stated,yes,1.62,0.69,4.18
+8,10.1002/adfm.202520811,Qin Z.,2026,Advanced Functional Materials,Single-junction,Light + heat,,1200,h,Retention (%),92.8,not stated,no,,,
+9,10.1002/adfm.202507865,Qiang Y.,2025,Advanced Functional Materials,Single-junction,Light + heat,85.0,1008,h,Retention (%),81.0,yes,yes,5.44,2.3,14.06
+10,10.1002/adfm.202506315,Lian Q.,2025,Advanced Functional Materials,Single-junction,Damp heat 85/85,85.0,1052,h,T80 (h),95.0,not stated,yes,6.85,7.44,26.59
+11,10.1126/sciadv.adz9089,Gao H.,2026,Science Advances ,Single-junction,Dark heat,85.0,700,h,Retention (%),85.0,not stated,yes,1.81,0.95,5.29
+12,10.1126/sciadv.adz9089,Gao H.,2026,Science Advances ,Single-junction,Damp heat 85/85,85.0,200,h,Retention (%),90.0,yes,yes,1.3,1.41,5.06
+13,10.1126/sciadv.adz9089,Gao H.,2026,Science Advances ,Single-junction,Thermal cycling,,200,c,Retention (%),92.0,yes,yes,10.95,4.65,12.17
+14,10.1126/sciadv.aef6596,Ren Z.,2026,Science advances,Single-junction,Light + heat,85.0,3566,h,Retention (%),80.0,yes,yes,19.26,8.14,49.74
+15,10.1002/adfm.202521541,Cha J.,2026,Advanced Functional Materials,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),90.0,not stated,yes,6.52,7.07,25.28
+16,10.1038/s44160-025-00865-w,Zhang K.,2025,Nature Synthesis,Single-junction,Light + heat,,1145,h,T80 (h),87.0,not stated,no,,,
+17,10.1002/adfm.78980,Lu X.,2026,Advanced Functional Materials,Single-junction,Light + heat,,1300,h,Retention (%),82.75,yes,no,,,
+18,10.1002/adfm.202524302,Zheng H.,2026,Advanced Functional Materials,Single-junction,Light + heat,,1200,h,Retention (%),91.0,not stated,no,,,
+19,10.1038/s41467-024-51345-2,Pei F.,2024,Nature Communications ,Tandem,Damp heat 85/85,85.0,1000,h,Retention (%),98.0,not stated,yes,6.52,7.07,25.28
+20,10.1002/adma.202211257,Yuan G.,2023,Advanced Materials,Single-junction,Thermal cycling,,230,c,Retention (%),95.0,not stated,yes,12.59,5.35,13.99
+21,10.1021/acsenergylett.5c01711,Sun X.,2025,ACS Energy Letters,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),93.0,yes,yes,13.03,14.15,50.56
+22,10.1016/j.nanoen.2024.109782,Asgarimoghaddam H.,2024,Nano Energy,Single-junction,Damp heat 85/85,85.0,300,h,T80 (h),80.0,yes,yes,1.95,2.12,7.58
+23,10.1109/jphotov.2023.3259061,Merckx T.,2023,IEEE Journal of Photovoltaics,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),92.0,yes,yes,6.52,7.07,25.28
+24,10.1038/s41467-026-75825-9,Wu X.,2026,Nature Communications ,Single-junction,Dark heat,65.0,2000,h,Retention (%),90.1,not stated,yes,1.64,0.86,4.79
+25,10.1038/s41467-026-75825-9,Wu X.,2026,Nature Communications ,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),82.3,not stated,yes,13.03,14.15,50.56
+26,10.1038/s41467-026-73911-6,Liu Z.,2026,Nature Communications ,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),91.4,not stated,yes,13.03,14.15,50.56
+27,10.1126/science.ado5172,Duan T.,2024,Science,Single-junction,Thermal cycling,,200,c,Retention (%),92.0,yes,yes,10.95,4.65,12.17
+28,10.1126/science.ado5172,Duan T.,2024,Science,Single-junction,Damp heat 85/85,85.0,600,h,Retention (%),92.0,yes,yes,3.91,4.24,15.17
+29,10.1002/adma.202309310,Gao Y.,2024,Advanced Materials,Single-junction,Damp heat 85/85,85.0,1400,h,T80 (h),93.0,not stated,yes,9.12,9.9,35.39
+30,10.1002/adma.73489,Wang T.,2026,Advanced Materials,Single-junction,Thermal cycling,,200,c,Retention (%),96.0,yes,yes,10.95,4.65,12.17
+31,10.1002/adma.73489,Wang T.,2026,Advanced Materials,Single-junction,Outdoor,,1000,h,Retention (%),95.0,yes,no,,,
+32,10.1002/adma.202211155,Hao M.,2023,Advanced Materials,Single-junction,Damp heat 85/85,85.0,440,h,Retention (%),94.8,not stated,yes,2.87,3.11,11.12
+33,10.1002/smll.202502659,Singha A.,2025,Small,Single-junction,Thermal cycling,,50,c,Retention (%),71.0,not stated,yes,1.89,0.8,2.1
+34,10.1007/s40843-026-4336-2,Wei Y.,2026,Science China Materials,Single-junction,Light + heat,,830,h,Retention (%),80.0,no,no,,,
+35,10.1002/smtd.202500808,Noh Y.I.,2025,Small Methods,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),90.7,not stated,yes,6.52,7.07,25.28
+36,10.1002/anie.202304350,Liu X.,2023,Angewandte Chemie - International Edition,Single-junction,Light + heat,,600,h,Retention (%),87.0,yes,no,,,
+37,10.1002/advs.202521825,Shin Y.S.,2026,Advanced Science,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),95.0,not stated,yes,6.52,7.07,25.28
+38,10.1002/adma.202521181,Liu J.,2026,Advanced Materials,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),95.0,not stated,yes,13.03,14.15,50.56
+39,10.1126/science.ado2351,Zai H.,2025,Science,Single-junction,Damp heat 85/85,85.0,1200,h,Retention (%),95.0,not stated,yes,7.82,8.49,30.34
+40,10.1126/science.ado2351,Zai H.,2025,Science,Single-junction,Light + heat,85.0,1200,h,Retention (%),96.0,not stated,yes,6.48,2.74,16.74
+41,10.1093/nsr/nwag484,Liang J.,2026,National Science Review,Single-junction,Light + heat,65.0,1000,h,Retention (%),95.0,not stated,yes,1.68,0.71,4.33
+42,10.1093/nsr/nwag484,Liang J.,2026,National Science Review,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),90.0,not stated,yes,6.52,7.07,25.28
+43,10.1002/adma.202409971,Hong J.,2025,Advanced Materials,Single-junction,Damp heat 85/85,85.0,1400,h,Retention (%),75.0,not stated,yes,7.3,7.92,28.31
+44,10.1038/s41560-026-02162-y,Xu F.,2026,Nature Energy,Tandem,Light + heat,65.0,1000,h,Retention (%),90.0,not stated,yes,1.68,0.71,4.33
+45,10.1002/smll.202201730,Yakusheva A.,2022,Small,Single-junction,Light + heat,63.0,2300,h,T80 (h),80.0,not stated,yes,3.41,1.44,8.8
+46,10.1002/anie.5216345,Yang G.,2026,Angewandte Chemie - International Edition,Single-junction,Light + heat,65.0,1200,h,Retention (%),95.0,not stated,yes,2.01,0.85,5.2
+47,10.1016/j.jechem.2025.06.076,Li C.,2025,Journal of Energy Chemistry,Single-junction,Damp heat 85/85,85.0,1000,h,T80 (h),88.0,yes,yes,6.52,7.07,25.28
+48,10.1016/j.jechem.2025.06.076,Li C.,2025,Journal of Energy Chemistry,Single-junction,Light + heat,,500,h,T80 (h),92.0,yes,no,,,
+49,10.1002/adma.72622,Cen T.,2026,Advanced Materials,Single-junction,Light + heat,,2000,h,Retention (%),96.0,not stated,no,,,
+50,10.1038/s41467-025-55815-z,Azam M.,2025,Nature Communications ,Single-junction,Light + heat,65.0,1300,h,Retention (%),94.0,not stated,yes,2.18,0.92,5.63
+51,10.1002/adfm.202519377,Li S.,2026,Advanced Functional Materials,Single-junction,Damp heat 65 °C,65.0,1100,h,Retention (%),91.5,not stated,yes,2.27,2.46,8.81
+52,10.1002/adfm.202519377,Li S.,2026,Advanced Functional Materials,Single-junction,Thermal cycling,,250,c,Retention (%),94.0,not stated,yes,13.68,5.81,15.21
+53,10.1039/d4ee01371a,Zhong Y.,2024,Energy and Environmental Science,Single-junction,Light + heat,,350,h,Retention (%),100.0,no,no,,,
+54,10.1039/d6el00050a,Wąsiak-Maciejak A.,2026,EES Solar,Single-junction,Damp heat 85/85,85.0,1026,h,Retention (%),80.0,yes,yes,6.69,7.26,25.94
+55,10.1021/acsenergylett.4c02098,Liao C.,2024,ACS Energy Letters,Tandem,Thermal cycling,,400,c,Retention (%),95.2,yes,yes,21.89,9.3,24.34
+56,10.1038/s41566-024-01383-5,Shen Z.,2024,Nature Photonics,Single-junction,Light + heat,65.0,1920,h,Retention (%),88.0,not stated,yes,3.22,1.36,8.32
+57,10.1038/s41566-024-01383-5,Shen Z.,2024,Nature Photonics,Single-junction,Light + heat,65.0,5000,h,Retention (%),98.0,not stated,yes,8.39,3.55,21.67
+58,10.1002/adma.202301871,Guo H.,2023,Advanced Materials,Single-junction,Light + heat,,500,h,Retention (%),87.0,not stated,no,,,
+59,10.1002/adma.75388,Liu X.,2026,Advanced Materials,Single-junction,Light + heat,65.0,2000,h,Retention (%),98.1,not stated,yes,3.36,1.42,8.67
+60,10.1002/adma.74758,Li Z.,2026,Advanced Materials,Single-junction,Light + heat,,1000,h,Retention (%),97.5,not stated,no,,,
+61,10.1002/aenm.202301607,Pu X.,2023,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),92.0,yes,yes,6.52,7.07,25.28
+62,10.1016/j.jechem.2025.09.067,Zhang N.,2026,Journal of Energy Chemistry,Single-junction,Light + heat,,1000,h,Retention (%),94.0,not stated,no,,,
+63,10.1038/s41563-025-02275-x,Luo C.,2025,Nature Materials,Single-junction,Light + heat,65.0,2800,h,Retention (%),96.0,not stated,yes,4.7,1.99,12.13
+64,10.1038/s41467-026-72097-1,Zhuang R.,2026,Nature Communications ,Single-junction,Light + heat,65.0,2000,h,Retention (%),96.0,not stated,yes,3.36,1.42,8.67
+65,10.1002/adma.202307422,Gong C.,2024,Advanced Materials,Single-junction,Damp heat 85/85,85.0,1010,h,Retention (%),89.0,not stated,yes,6.58,7.14,25.53
+66,10.1038/s41566-025-01790-2,Wei X.,2026,Nature Photonics,Single-junction,Damp heat 85/85,85.0,2280,h,Retention (%),83.4,no,yes,14.86,16.13,57.64
+67,10.1038/s41467-023-38926-3,Wang F.,2023,Nature Communications ,Single-junction,Light + heat,,1100,h,Retention (%),95.0,not stated,no,,,
+68,10.1002/adma.202505475,Urieta-Mora J.,2026,Advanced Materials,Single-junction,Light + heat,,1000,h,Retention (%),80.0,not stated,no,,,
+69,10.1016/j.mtener.2024.101741,Ilicheva E.A.,2025,Materials Today Energy,Single-junction,Light + heat,65.0,1680,h,Retention (%),88.0,not stated,yes,2.82,1.19,7.28
+70,10.1038/s41560-023-01295-8,Li H.,2023,Nature Energy,Single-junction,Damp heat 85/85,85.0,1200,h,Retention (%),92.0,yes,yes,7.82,8.49,30.34
+71,10.1002/aenm.202200758,Sung S.J.,2022,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,1530,h,Retention (%),90.0,yes,yes,9.97,10.82,38.68
+72,10.1126/science.aef5355,Shi W.,2026,Science,Single-junction,Outdoor,,2520,h,Retention (%),65.0,not stated,no,,,
+73,10.1002/eom2.12495,Chae E.C.,2024,EcoMat,Single-junction,Damp heat 85/85,85.0,916,h,Retention (%),74.0,not stated,yes,4.59,4.98,17.81
+74,10.1016/j.cej.2024.154821,Kim M.,2024,Chemical Engineering Journal,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),90.0,yes,yes,6.52,7.07,25.28
+75,10.1016/j.cej.2024.154821,Kim M.,2024,Chemical Engineering Journal,Single-junction,Thermal cycling,,100,c,Retention (%),90.0,yes,yes,5.47,2.33,6.08
+76,10.1002/anie.202525625,Luo J.,2026,Angewandte Chemie - International Edition,Single-junction,Light + heat,65.0,1250,h,Retention (%),92.5,not stated,yes,2.1,0.89,5.42
+77,10.1002/adfm.75731,Li R.,2026,Advanced Functional Materials,Single-junction,Light + heat,,1000,h,Retention (%),92.29,not stated,no,,,
+78,10.1002/adma.75520,Duan L.,2026,Advanced Materials,Single-junction,Light + heat,,1300,h,Retention (%),97.76,no,no,,,
+79,10.1002/anie.4221605,Zhang J.,2026,Angewandte Chemie - International Edition,Single-junction,Light + heat,65.0,1000,h,Retention (%),95.1,not stated,yes,1.68,0.71,4.33
+80,10.1002/anie.202415669,Chen Z.,2025,Angewandte Chemie - International Edition,Single-junction,Damp heat 60 °C,60.0,1000,h,Retention (%),91.0,no,yes,0.6,0.65,2.33
+81,10.1002/adfm.79142,Zhou Y.,2026,Advanced Functional Materials,Tandem,Light + heat,,1000,h,Retention (%),91.0,not stated,no,,,
+82,10.1038/s41560-023-01358-w,Yan L.,2023,Nature Energy,Single-junction,Damp heat 85/85,85.0,300,h,Retention (%),85.0,yes,yes,1.95,2.12,7.58
+83,10.1002/eem2.12739,Ma S.,2024,Energy and Environmental Materials,Single-junction,Dark heat,85.0,1500,h,Retention (%),92.6,not stated,yes,3.88,2.03,11.34
+84,10.1002/eem2.12739,Ma S.,2024,Energy and Environmental Materials,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),85.8,not stated,yes,6.52,7.07,25.28
+85,10.1002/eem2.12739,Ma S.,2024,Energy and Environmental Materials,Single-junction,Thermal cycling,,250,c,Retention (%),96.1,not stated,yes,13.68,5.81,15.21
+86,10.1002/anie.202423827,Zhang X.,2025,Angewandte Chemie - International Edition,Single-junction,Light + heat,,180,h,Retention (%),90.0,not stated,no,,,
+87,10.1038/s41560-023-01421-6,Suo J.,2024,Nature Energy,Single-junction,Thermal cycling,,100,c,Retention (%),95.0,not stated,yes,1.26,0.54,1.4
+88,10.1038/s41560-023-01421-6,Suo J.,2024,Nature Energy,Single-junction,Damp heat 85/85,85.0,1050,h,Retention (%),95.0,not stated,yes,6.84,7.43,26.54
+89,10.1002/adfm.75697,Zhang Y.,2026,Advanced Functional Materials,Single-junction,Thermal cycling,,800,c,Retention (%),94.4,not stated,yes,43.78,18.61,48.68
+90,10.1002/adfm.75697,Zhang Y.,2026,Advanced Functional Materials,Single-junction,Light + heat,65.0,2000,h,Retention (%),94.7,not stated,yes,3.36,1.42,8.67
+91,10.1021/acsami.1c14720,Emery Q.,2022,ACS Applied Materials and Interfaces,Single-junction,Damp heat 85/85,85.0,1566,h,Retention (%),95.0,yes,yes,10.2,11.08,39.59
+92,10.1039/d5ee07173a,Ge C.,2026,Energy and Environmental Science,Single-junction,Damp heat 85/85,85.0,600,h,Retention (%),80.0,yes,yes,3.91,4.24,15.17
+93,10.1126/science.aea8228,Hu J.,2026,Science,Single-junction,Light + heat,85.0,1617,h,Retention (%),98.6,not stated,yes,8.73,3.69,22.56
+94,10.1002/aenm.71312,Asare G.K.,2026,Advanced Energy Materials,Single-junction,Thermal cycling,,100,c,Retention (%),95.0,not stated,yes,8.97,3.81,9.97
+95,10.1002/adfm.202501623,Ma X.,2025,Advanced Functional Materials,Single-junction,Light + heat,85.0,800,h,Retention (%),90.0,not stated,yes,4.32,1.83,11.16
+96,10.1002/adfm.202422205,Cao Y.,2025,Advanced Functional Materials,Single-junction,Light + heat,,550,h,Retention (%),94.2,no,no,,,
+97,10.1002/smll.75052,Feng B.,2026,Small,Single-junction,Light + heat,85.0,700,h,Retention (%),90.0,not stated,yes,3.78,1.6,9.76
+98,10.1039/d6ee04307k,Zhang K.,2026,Energy and Environmental Science,Single-junction,Light + heat,,1000,h,Retention (%),90.0,not stated,no,,,
+99,10.1002/advs.202309111,Liu Y.,2024,Advanced Science,Single-junction,Light + heat,65.0,2000,h,Retention (%),94.0,not stated,yes,3.36,1.42,8.67
+100,10.1016/j.solidstatesciences.2026.108494,Mavlonov A.,2026,Solid State Sciences,Single-junction,Light + heat,70.0,1000,h,Retention (%),98.0,not stated,yes,2.28,0.96,5.88
+101,10.1016/j.joule.2026.102431,Liu M.,2026,Joule,Single-junction,Light + heat,85.0,1200,h,Retention (%),98.0,not stated,yes,6.48,2.74,16.74
+102,10.1002/adom.202502504,Ning S.,2025,Advanced Optical Materials,Single-junction,Dark heat,85.0,242,h,Retention (%),100.0,not stated,yes,0.63,0.33,1.83
+103,10.1002/aenm.71607,Yang Z.,2026,Advanced Energy Materials,Single-junction,Thermal cycling,,250,c,Retention (%),82.4,not stated,yes,13.68,5.81,15.21
+104,10.1021/acs.nanolett.5c04217,Gong C.,2025,Nano Letters,Single-junction,Damp heat 85/85,85.0,1300,h,Retention (%),85.0,not stated,yes,8.47,9.2,32.86
+105,10.1002/aenm.202404575,Yin S.,2025,Advanced Energy Materials,Single-junction,Light + heat,,1000,h,Retention (%),90.2,not stated,no,,,
+106,10.1021/acsenergylett.5c01010,Luo H.,2025,ACS Energy Letters,Tandem,Damp heat 85/85,85.0,723,h,Retention (%),80.0,yes,yes,4.71,5.11,18.28
+107,10.1016/j.surfin.2026.110244,Mai C.T.K.,2026,Surfaces and Interfaces,Single-junction,Damp heat 65 °C,65.0,1025,h,Retention (%),75.0,not stated,yes,1.69,1.84,6.56
+108,10.1002/anie.202505876,Feng Y.,2025,Angewandte Chemie - International Edition,Single-junction,Light + heat,65.0,2000,h,Retention (%),95.0,not stated,yes,3.36,1.42,8.67
+109,10.1016/j.joule.2026.102600,Lee S.,2026,Joule,Single-junction,Dark heat,85.0,2000,h,T80 (h),80.0,not stated,yes,5.18,2.71,15.12
+110,10.1002/aenm.71546,Zhang Z.,2026,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,600,h,Retention (%),91.0,no,yes,3.91,4.24,15.17
+111,10.1002/adma.75539,Gao Y.,2026,Advanced Materials,Single-junction,Dark heat,85.0,1000,h,Retention (%),90.0,no,yes,2.59,1.36,7.56
+112,10.1002/adma.75539,Gao Y.,2026,Advanced Materials,Single-junction,Light + heat,,2000,h,Retention (%),92.0,no,no,,,
+113,10.1039/d6tc02096h,Wan Z.,2026,Journal of Materials Chemistry C,Single-junction,Damp heat 65 °C,65.0,720,h,Retention (%),85.0,no,yes,1.49,1.61,5.76
+114,10.1002/adma.73036,Jin M.,2026,Advanced Materials,Single-junction,Light + heat,,336,h,Retention (%),78.44,not stated,no,,,
+115,10.1021/acsenergylett.4c00045,Li C.,2024,ACS Energy Letters,Single-junction,Light + heat,55.0,1200,h,Retention (%),96.0,not stated,yes,1.06,0.45,2.75
+116,10.1021/acsenergylett.4c00045,Li C.,2024,ACS Energy Letters,Single-junction,Light + heat,85.0,500,h,Retention (%),80.0,not stated,yes,2.7,1.14,6.97
+117,10.1002/aelm.202500187,Shen Y.,2025,Advanced Electronic Materials,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),95.1,yes,yes,6.52,7.07,25.28
+118,10.1021/acsaem.2c01036,Ma S.,2022,ACS Applied Energy Materials,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),82.0,not stated,yes,6.52,7.07,25.28
+119,10.1021/acs.langmuir.5c05772,Yao Z.,2026,Langmuir,Single-junction,Damp heat 85/85,85.0,900,h,Retention (%),80.0,yes,yes,5.86,6.37,22.75
+120,10.1002/adma.202508643,Qu S.,2025,Advanced Materials,Single-junction,Thermal cycling,,150,c,Retention (%),90.0,not stated,yes,8.21,3.49,9.13
+121,10.1002/adma.202513600,Lv Z.,2026,Advanced Materials,Single-junction,Light + heat,,1700,h,Retention (%),93.0,not stated,no,,,
+122,10.1016/j.cej.2026.178368,Yan Y.,2026,Chemical Engineering Journal,Single-junction,Light + heat,,300,h,Retention (%),87.0,not stated,no,,,
+123,10.1002/adma.202506048,Zhan L.,2025,Advanced Materials,Single-junction,Light + heat,85.0,1500,h,Retention (%),98.0,not stated,yes,8.1,3.43,20.92
+124,10.1002/adma.202506048,Zhan L.,2025,Advanced Materials,Single-junction,Thermal cycling,,900,c,Retention (%),93.0,not stated,yes,49.25,20.93,54.76
+125,10.1038/s41560-023-01249-0,You S.,2023,Nature Energy,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),92.3,not stated,yes,6.52,7.07,25.28
+126,10.1002/aenm.202401320,Ning L.,2024,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,2400,h,Retention (%),90.8,yes,yes,15.64,16.98,60.67
+127,10.1002/adfm.77712,Wang H.,2026,Advanced Functional Materials,Single-junction,Light + heat,,1100,h,Retention (%),97.3,not stated,no,,,
+128,10.1021/jacs.4c00110,Cao F.,2024,Journal of the American Chemical Society,Single-junction,Light + heat,60.0,1100,h,Retention (%),100.0,yes,yes,1.35,0.57,3.48
+129,10.1021/jacs.4c00110,Cao F.,2024,Journal of the American Chemical Society,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),87.0,yes,yes,13.03,14.15,50.56
+130,10.1039/d6ee02285e,Chen S.,2026,Energy and Environmental Science,Single-junction,Light + heat,65.0,2000,h,Retention (%),93.0,no,yes,3.36,1.42,8.67
+131,10.1038/s41566-026-01991-3,Chen C.,2026,Nature Photonics,Single-junction,Light + heat,85.0,900,h,Retention (%),100.0,not stated,yes,4.86,2.06,12.55
+132,10.1016/j.matt.2026.102945,Li Y.,2026,Matter,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),85.8,yes,yes,6.52,7.07,25.28
+133,10.1002/anie.202521774,Ren L.,2026,Angewandte Chemie - International Edition,Single-junction,Dark heat,85.0,1000,h,Retention (%),91.3,not stated,yes,2.59,1.36,7.56
+134,10.1002/anie.202521774,Ren L.,2026,Angewandte Chemie - International Edition,Single-junction,Thermal cycling,,200,c,Retention (%),94.4,not stated,yes,2.52,1.07,2.8
+135,10.1002/adma.202404797,Tian C.,2024,Advanced Materials,Single-junction,Light + heat,65.0,1000,h,Retention (%),90.0,not stated,yes,1.68,0.71,4.33
+136,10.1002/adfm.75916,Duan R.,2026,Advanced Functional Materials,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),80.0,not stated,yes,6.52,7.07,25.28
+137,10.37188/cjl.20250233,Zhou X.,2026,Faguang Xuebao/Chinese Journal of Luminescence,Single-junction,Damp heat 85/85,85.0,480,h,Retention (%),71.5,not stated,yes,2.19,2.38,8.52
+138,10.1126/sciadv.ado7318,Zhuang Q.,2025,Science Advances ,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),81.0,not stated,yes,13.03,14.15,50.56
+139,10.1038/s41560-026-02025-6,Li M.,2026,Nature Energy,Single-junction,Light + heat,,1000,h,T80 (h),90.0,not stated,no,,,
+140,10.1039/d5ee02667a,Yan S.,2025,Energy and Environmental Science,Single-junction,Light + heat,,1500,h,Retention (%),97.0,not stated,no,,,
+141,10.1039/d6ee05166a,Zhang L.,2026,Energy and Environmental Science,Single-junction,Thermal cycling,,200,c,Retention (%),82.8,not stated,yes,6.32,2.69,7.03
+142,10.1002/aenm.202402856,Li C.,2025,Advanced Energy Materials,Single-junction,Dark heat,65.0,1000,h,T80 (h),92.0,yes,yes,0.82,0.43,2.39
+143,10.1038/s41566-026-01943-x,Zhao L.,2026,Nature Photonics,Single-junction,Thermal cycling,,200,c,Retention (%),92.0,not stated,yes,10.95,4.65,12.17
+144,10.1002/smtd.70977,Li W.,2026,Small Methods,Single-junction,Light + heat,85.0,1000,h,Retention (%),97.3,not stated,yes,5.4,2.28,13.95
+145,10.1002/adma.73286,Xu B.,2026,Advanced Materials,Single-junction,Light + heat,,1100,h,Retention (%),93.0,no,no,,,
+146,10.1002/adma.73286,Xu B.,2026,Advanced Materials,Single-junction,Dark heat,85.0,700,h,T80 (h),90.0,no,yes,1.81,0.95,5.29
+147,10.1002/smll.202514475,Guo X.,2026,Small,Single-junction,Light + heat,65.0,1000,h,Retention (%),85.0,not stated,yes,1.68,0.71,4.33
+148,10.1109/jphotov.2025.3533909,Kyranaki N.,2025,IEEE Journal of Photovoltaics,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),70.0,not stated,yes,4.34,4.72,16.85
+149,10.1002/adfm.202419849,Luo Y.,2025,Advanced Functional Materials,Single-junction,Damp heat 85/85,85.0,500,h,Retention (%),92.0,not stated,yes,3.26,3.54,12.64
+150,10.1039/d4ee01647e,Dong L.,2024,Energy and Environmental Science,Single-junction,Light + heat,65.0,1200,h,T80 (h),95.0,not stated,yes,2.01,0.85,5.2
+151,10.1039/d4ee01647e,Dong L.,2024,Energy and Environmental Science,Single-junction,Damp heat 65 °C,65.0,500,h,Retention (%),90.0,yes,yes,1.03,1.12,4.0
+152,10.1038/s41586-025-09849-4,Wang S.,2026,Nature,Tandem,Damp heat 85/85,85.0,1000,h,Retention (%),90.0,not stated,yes,6.52,7.07,25.28
+153,10.1021/acsami.6c17710,Chityala V.G.,2026,ACS Applied Materials and Interfaces,Single-junction,Damp heat 85/85,85.0,680,h,T80 (h),75.0,not stated,yes,4.43,4.81,17.19
+154,10.1038/s41560-026-02071-0,Lee M.-H.,2026,Nature Energy,Single-junction,Damp heat 85/85,85.0,3000,h,Retention (%),95.1,no,yes,19.55,21.22,75.84
+155,10.1002/adfm.202527418,Wang S.,2026,Advanced Functional Materials,Single-junction,Thermal cycling,,300,c,Retention (%),91.64,yes,yes,16.42,6.98,18.25
+156,10.1002/adfm.202527418,Wang S.,2026,Advanced Functional Materials,Single-junction,Light + heat,65.0,1000,h,Retention (%),91.87,yes,yes,1.68,0.71,4.33
+157,10.1002/adfm.202426037,Luo X.,2025,Advanced Functional Materials,Single-junction,Light + heat,,1300,h,T80 (h),95.0,not stated,no,,,
+158,10.1002/adfm.202426037,Luo X.,2025,Advanced Functional Materials,Single-junction,Damp heat 85/85,85.0,1200,h,T80 (h),95.0,not stated,yes,7.82,8.49,30.34
+159,10.1002/adfm.75395,Gong C.,2026,Advanced Functional Materials,Single-junction,Damp heat 85/85,85.0,1648,h,Retention (%),90.0,yes,yes,10.74,11.66,41.66
+160,10.1039/d4ee00902a,Tuo B.,2024,Energy and Environmental Science,Single-junction,Light + heat,65.0,1000,h,Retention (%),90.0,not stated,yes,1.68,0.71,4.33
+161,10.1002/adfm.202524518,Tian C.,2026,Advanced Functional Materials,Single-junction,Damp heat 85/85,85.0,1200,h,Retention (%),85.0,not stated,yes,7.82,8.49,30.34
+162,10.1002/adma.202410273,Cui Z.,2024,Advanced Materials,Single-junction,Light + heat,65.0,800,h,Retention (%),90.0,not stated,yes,1.34,0.57,3.47
+163,10.1016/j.joule.2026.102589,Yang Y.,2026,Joule,Single-junction,Dark heat,85.0,2200,h,Retention (%),94.8,no,yes,5.69,2.98,16.63
+164,10.1016/j.joule.2026.102589,Yang Y.,2026,Joule,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),92.1,yes,yes,6.52,7.07,25.28
+165,10.1038/s41560-023-01288-7,Chen R.,2023,Nature Energy,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),98.2,not stated,yes,6.52,7.07,25.28
+166,10.1039/d6tc00175k,Wang J.,2026,Journal of Materials Chemistry C,Single-junction,Damp heat 85/85,85.0,1500,h,Retention (%),80.0,yes,yes,9.77,10.61,37.92
+167,10.1002/adma.202400852,Lu X.,2024,Advanced Materials,Single-junction,Light + heat,65.0,300,h,Retention (%),97.0,not stated,yes,0.5,0.21,1.3
+168,10.1002/aenm.202400791,Yun H.-S.,2024,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,1080,h,Retention (%),80.0,not stated,yes,7.04,7.64,27.3
+169,10.1002/anie.202512660,Zhang Z.,2025,Angewandte Chemie - International Edition,Single-junction,Light + heat,,2660,h,Retention (%),98.3,not stated,no,,,
+170,10.1126/science.abm5784,Azmi R.,2022,Science,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),95.0,not stated,yes,6.52,7.07,25.28
+171,10.1038/s41560-026-02161-z,Li B.,2026,Nature Energy,Tandem,Damp heat 85/85,85.0,1500,h,Retention (%),93.0,yes,yes,9.77,10.61,37.92
+172,10.1038/s41467-026-74018-8,Yang R.,2026,Nature Communications ,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),90.7,not stated,yes,13.03,14.15,50.56
+173,10.1039/d4sc04819a,Wan Z.,2024,Chemical Science,Single-junction,Damp heat 85/85,85.0,360,h,Retention (%),86.0,not stated,yes,2.35,2.55,9.1
+174,10.1038/s41560-026-02016-7,He J.,2026,Nature Energy,Single-junction,Light + heat,85.0,1500,h,Retention (%),95.0,not stated,yes,8.1,3.43,20.92
+175,10.1002/adma.202523249,Shao C.,2026,Advanced Materials,Single-junction,Light + heat,,1000,h,Retention (%),95.9,not stated,no,,,
+176,10.1038/s41586-025-09835-w,Fang Z.,2026,Nature,Tandem,Thermal cycling,,250,c,Retention (%),97.0,not stated,yes,13.68,5.81,15.21
+177,10.1002/adma.202410779,Song Z.,2025,Advanced Materials,Single-junction,Light + heat,85.0,1000,h,Retention (%),85.0,not stated,yes,5.4,2.28,13.95
+178,10.1002/adma.202408387,Heo J.H.,2024,Advanced Materials,Single-junction,Damp heat + light,85.0,1000,h,Retention (%),92.48,not stated,yes,5.4,2.28,13.95
+179,10.1002/anie.202420585,Li C.,2025,Angewandte Chemie - International Edition,Single-junction,Dark heat,65.0,1000,h,T80 (h),91.0,yes,yes,0.82,0.43,2.39
+180,10.1002/adma.202520308,Weng Q.,2026,Advanced Materials,Single-junction,Light + heat,,800,h,Retention (%),90.0,not stated,no,,,
+181,10.1038/s41467-026-73426-0,Wang K.,2026,Nature Communications ,Single-junction,Light + heat,65.0,2100,h,Retention (%),98.0,not stated,yes,3.52,1.49,9.1
+182,10.1038/s41467-026-73426-0,Wang K.,2026,Nature Communications ,Single-junction,Outdoor,,2035,h,Retention (%),90.5,not stated,no,,,
+183,10.1038/s41566-024-01561-5,Kan C.,2025,Nature Photonics,Tandem,Damp heat 85/85,85.0,1000,h,Retention (%),90.2,not stated,yes,6.52,7.07,25.28
+184,10.1016/j.cej.2024.154611,Dai S.,2024,Chemical Engineering Journal,Single-junction,Light + heat,85.0,1000,h,Retention (%),80.0,yes,yes,5.4,2.28,13.95
+185,10.1039/d5ee04336k,Gao Y.,2026,Energy and Environmental Science,Single-junction,Light + heat,,1950,h,Retention (%),90.0,not stated,no,,,
+186,10.1021/acsaem.2c03298,Zhou J.,2023,ACS Applied Energy Materials,Single-junction,Damp heat 85/85,85.0,100,h,Retention (%),96.0,not stated,yes,0.65,0.71,2.53
+187,10.1038/s41563-025-02163-4,Feng K.,2025,Nature Materials,Single-junction,Light + heat,,1300,h,T80 (h),80.0,not stated,no,,,
+188,10.1002/advs.202408684,Xiao L.,2024,Advanced Science,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),70.0,not stated,yes,4.34,4.72,16.85
+189,10.1126/science.add7331,Li G.,2023,Science,Single-junction,Light + heat,75.0,1000,h,Retention (%),88.0,not stated,yes,3.06,1.29,7.91
+190,10.1002/aenm.71800,Wang X.,2026,Advanced Energy Materials,Single-junction,Dark heat,85.0,1000,h,Retention (%),87.49,not stated,yes,2.59,1.36,7.56
+191,10.1002/aenm.71800,Wang X.,2026,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,800,h,Retention (%),80.52,not stated,yes,5.21,5.66,20.22
+192,10.1038/s41467-026-72099-z,Zhang H.,2026,Nature Communications ,Single-junction,Light + heat,65.0,1210,h,T80 (h),80.0,not stated,yes,2.03,0.86,5.24
+193,10.1038/s41467-026-72099-z,Zhang H.,2026,Nature Communications ,Single-junction,Light + heat,85.0,650,h,T80 (h),80.0,not stated,yes,3.51,1.48,9.07
+194,10.1002/adma.202507730,Wang Y.,2025,Advanced Materials,Single-junction,Light + heat,65.0,1500,h,Retention (%),97.0,not stated,yes,2.52,1.06,6.5
+195,10.1126/sciadv.aei2945,Xu X.,2026,Science Advances ,Tandem,Outdoor,,720,h,Retention (%),100.0,not stated,no,,,
+196,10.1016/j.solmat.2026.114743,Lv X.,2027,Solar Energy Materials and Solar Cells,Single-junction,Damp heat 65 °C,65.0,600,h,Retention (%),75.25,no,yes,1.0,1.09,3.88
+197,10.1038/s41467-026-73269-9,Sun G.,2026,Nature Communications ,Single-junction,Light + heat,,1000,h,T80 (h),80.0,not stated,no,,,
+198,10.1021/acsaom.3c00002,Lee H.,2023,ACS Applied Optical Materials,Single-junction,Outdoor,,240,h,Retention (%),90.0,yes,no,,,
+199,10.1002/adma.202418011,Wang Z.,2025,Advanced Materials,Single-junction,Light + heat,65.0,1200,h,T80 (h),92.0,not stated,yes,2.01,0.85,5.2
+200,10.1360/ssc-2026-0020,Guo H.,2026,Scientia Sinica Chimica,Single-junction,Light + heat,65.0,800,h,Retention (%),90.0,not stated,yes,1.34,0.57,3.47
+201,10.1021/acsnano.5c21962,Zhang H.,2026,ACS Nano,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),95.2,yes,yes,6.52,7.07,25.28
+202,10.1002/adfm.79131,Ma L.,2026,Advanced Functional Materials,Single-junction,Light + heat,,1000,h,Retention (%),89.0,not stated,no,,,
+203,10.1021/jacs.6c02548,Li B.,2026,Journal of the American Chemical Society,Single-junction,Light + heat,65.0,1400,h,T80 (h),90.0,no,yes,2.35,0.99,6.07
+204,10.1038/s41560-023-01444-z,Yang Y.,2024,Nature Energy,Single-junction,Damp heat 85/85,85.0,1200,h,T80 (h),86.0,not stated,yes,7.82,8.49,30.34
+205,10.1016/j.joule.2022.05.013,Heo J.H.,2022,Joule,Single-junction,Damp heat + light,85.0,1000,h,Retention (%),85.0,yes,yes,5.4,2.28,13.95
+206,10.1002/smll.202310868,Tu S.,2024,Small,Single-junction,Damp heat 85/85,85.0,1120,h,T80 (h),80.0,not stated,yes,7.3,7.92,28.31
+207,10.1038/s41566-025-01815-w,Sun N.,2026,Nature Photonics,Single-junction,Light + heat,,500,h,Retention (%),90.3,not stated,no,,,
+208,10.1002/adma.202514735,Wang P.,2026,Advanced Materials,Single-junction,Light + heat,65.0,1000,h,Retention (%),94.0,not stated,yes,1.68,0.71,4.33
+209,10.1016/j.cej.2024.158389,Tu S.,2025,Chemical Engineering Journal,Single-junction,Light + heat,85.0,600,h,T80 (h),80.0,no,yes,3.24,1.37,8.37
+210,10.1016/j.cej.2024.158389,Tu S.,2025,Chemical Engineering Journal,Single-junction,Damp heat 85/85,85.0,1200,h,T80 (h),80.0,yes,yes,7.82,8.49,30.34
+211,10.1002/anie.5279889,Wang X.,2026,Angewandte Chemie - International Edition,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),90.0,not stated,yes,13.03,14.15,50.56
+212,10.1126/sciadv.adp3112,Yun Y.,2025,Science Advances ,Single-junction,Light + heat,85.0,1000,h,Retention (%),95.0,not stated,yes,5.4,2.28,13.95
+213,10.1016/j.joule.2026.102432,Liu G.,2026,Joule,Single-junction,Dark heat,85.0,800,h,Retention (%),90.0,not stated,yes,2.07,1.08,6.05
+214,10.1016/j.joule.2026.102432,Liu G.,2026,Joule,Single-junction,Light + heat,,2000,h,T80 (h),90.0,not stated,no,,,
+215,10.1039/d5ee00350d,Fu S.,2025,Energy and Environmental Science,Single-junction,Light + heat,,1000,h,Retention (%),90.0,not stated,no,,,
+216,10.1021/acsnano.5c07208,Yin R.,2025,ACS Nano,Single-junction,Light + heat,,1000,h,Retention (%),93.0,yes,no,,,
+217,10.1016/j.nanoen.2022.107822,Ahmad S.,2022,Nano Energy,Single-junction,Damp heat 85/85,85.0,240,h,Retention (%),95.0,no,yes,1.56,1.7,6.07
+218,10.1039/d5ee05252a,Song Y.,2026,Energy and Environmental Science,Single-junction,Light + heat,85.0,500,h,Retention (%),90.2,not stated,yes,2.7,1.14,6.97
+219,10.1002/adma.202500268,Yang Q.,2025,Advanced Materials,Single-junction,Dark heat,65.0,1000,h,Retention (%),90.62,not stated,yes,0.82,0.43,2.39
+220,10.1002/adma.202500268,Yang Q.,2025,Advanced Materials,Single-junction,Light + heat,85.0,800,h,Retention (%),83.69,not stated,yes,4.32,1.83,11.16
+221,10.1038/s44160-025-00787-7,Li Z.,2025,Nature Synthesis,Single-junction,Damp heat 85/85,85.0,1000,h,T80 (h),90.0,not stated,yes,6.52,7.07,25.28
+222,10.1038/s41467-024-53283-5,Gong C.,2024,Nature Communications ,Single-junction,Damp heat 85/85,85.0,1090,h,Retention (%),95.0,not stated,yes,7.1,7.71,27.56
+223,10.1016/j.joule.2023.09.007,Wang G.,2023,Joule,Tandem,Thermal cycling,,200,c,Retention (%),98.8,yes,yes,10.95,4.65,12.17
+224,10.1038/s41560-022-01038-1,Lin X.,2022,Nature Energy,Single-junction,Damp heat 85/85,85.0,1440,h,Retention (%),97.0,not stated,yes,9.38,10.19,36.4
+225,10.1002/aenm.70814,Guo S.,2026,Advanced Energy Materials,Single-junction,Thermal cycling,,240,c,Retention (%),93.3,not stated,yes,13.13,5.58,14.6
+226,10.1039/d4ee05849f,Du J.,2025,Energy and Environmental Science,Single-junction,Light + heat,,1000,h,Retention (%),93.98,not stated,no,,,
+227,10.1039/d5ee00380f,Yin S.,2025,Energy and Environmental Science,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),95.0,not stated,yes,13.03,14.15,50.56
+228,10.1038/s41467-026-73276-w,Tang Q.,2026,Nature Communications ,Single-junction,Damp heat 85/85,85.0,1000,h,T80 (h),95.0,yes,yes,6.52,7.07,25.28
+229,10.1002/aenm.202505163,Gong C.,2026,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,1046,h,Retention (%),95.0,not stated,yes,6.82,7.4,26.44
+230,10.1038/s41467-025-56409-5,Chang X.,2025,Nature Communications ,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),82.0,yes,yes,6.52,7.07,25.28
+231,10.1038/s41467-025-56409-5,Chang X.,2025,Nature Communications ,Single-junction,Outdoor,,840,h,Retention (%),75.0,yes,no,,,
+232,10.1039/d4ee05879h,Zhang Z.,2025,Energy and Environmental Science,Single-junction,Light + heat,,2100,h,Retention (%),97.8,not stated,no,,,
+233,10.1002/inf2.70140,Li D.,2026,InfoMat,Single-junction,Dark heat,85.0,900,h,Retention (%),92.8,not stated,yes,2.33,1.22,6.8
+234,10.1126/sciadv.adw1437,Wang S.,2025,Science Advances ,Single-junction,Damp heat 85/85,85.0,1500,h,Retention (%),95.17,yes,yes,9.77,10.61,37.92
+235,10.1126/sciadv.adw1437,Wang S.,2025,Science Advances ,Single-junction,Thermal cycling,,300,c,Retention (%),93.53,yes,yes,16.42,6.98,18.25
+236,10.1038/s41566-025-01827-6,Tian C.,2026,Nature Photonics,Single-junction,Light + heat,,1500,h,Retention (%),95.0,not stated,no,,,
+237,10.1002/advs.202407380,Lin D.,2025,Advanced Science,Single-junction,Light + heat,65.0,1246,h,Retention (%),96.9,yes,yes,2.09,0.88,5.4
+238,10.1002/advs.202407380,Lin D.,2025,Advanced Science,Single-junction,Outdoor,,862,h,Retention (%),91.1,yes,no,,,
+239,10.1002/solr.202400437,Le T.S.,2024,Solar RRL,Single-junction,Light + heat,,1630,h,T80 (h),80.0,not stated,no,,,
+240,10.1016/j.chempr.2026.102965,Zhou W.,2026,Chem,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),91.0,yes,yes,13.03,14.15,50.56
+241,10.1016/j.chempr.2026.102965,Zhou W.,2026,Chem,Single-junction,Light + heat,85.0,1000,h,Retention (%),90.0,yes,yes,5.4,2.28,13.95
+242,10.1039/d5ee00004a,Azam M.,2025,Energy and Environmental Science,Single-junction,Light + heat,,1230,h,Retention (%),96.0,no,no,,,
+243,10.1002/solr.202300801,Tang J.,2024,Solar RRL,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),88.0,yes,yes,6.52,7.07,25.28
+244,10.1002/solr.202300801,Tang J.,2024,Solar RRL,Single-junction,Thermal cycling,,250,c,Retention (%),95.0,yes,yes,13.68,5.81,15.21
+245,10.1002/adfm.202407828,Yang H.,2024,Advanced Functional Materials,Single-junction,Light + heat,65.0,2000,h,Retention (%),94.0,no,yes,3.36,1.42,8.67
+246,10.1039/d5dt02603b,Chang S.,2026,Dalton Transactions,Single-junction,Dark heat,80.0,200,h,Retention (%),90.0,not stated,yes,0.39,0.21,1.15
+247,10.1021/acsami.4c21423,Tang Y.,2025,ACS Applied Materials and Interfaces,Single-junction,Damp heat 85/85,85.0,1200,h,Retention (%),95.0,not stated,yes,7.82,8.49,30.34
+248,10.1002/adfm.202407805,Li C.,2024,Advanced Functional Materials,Single-junction,Damp heat 85/85,85.0,900,h,T80 (h),90.0,yes,yes,5.86,6.37,22.75
+249,10.1002/aenm.71602,Wen L.,2026,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,360,h,Retention (%),80.0,not stated,yes,2.35,2.55,9.1
+250,10.1002/anie.202502730,Li C.,2025,Angewandte Chemie - International Edition,Single-junction,Damp heat 85/85,85.0,1000,h,T80 (h),90.0,not stated,yes,6.52,7.07,25.28
+251,10.1002/smtd.70860,Yang J.,2026,Small Methods,Single-junction,Light + heat,,2000,h,Retention (%),90.2,not stated,no,,,
+252,10.1126/sciadv.aeg3206,Zhang Z.,2026,Science Advances ,Single-junction,Light + heat,,744,h,Retention (%),93.37,no,no,,,
+253,10.1021/acsami.5c05279,Jiao Y.,2025,ACS Applied Materials and Interfaces,Single-junction,Damp heat 85/85,85.0,2218,h,Retention (%),96.82,not stated,yes,14.45,15.69,56.07
+254,10.1016/j.nanoen.2026.111740,Li X.,2026,Nano Energy,Single-junction,Dark heat,65.0,288,h,Retention (%),94.0,not stated,yes,0.24,0.12,0.69
+255,10.1007/s11426-024-2047-7,Qiang Y.,2024,Science China Chemistry,Single-junction,Damp heat 85/85,85.0,1000,h,T80 (h),80.0,yes,yes,6.52,7.07,25.28
+256,10.1002/adma.74438,Wang K.,2026,Advanced Materials,Single-junction,Dark heat,85.0,1000,h,Retention (%),90.1,not stated,yes,2.59,1.36,7.56
+257,10.1002/adma.74438,Wang K.,2026,Advanced Materials,Single-junction,Thermal cycling,,200,c,Retention (%),89.3,not stated,yes,10.95,4.65,12.17
+258,10.1021/jacs.6c10673,Zhang Q.,2026,Journal of the American Chemical Society,Single-junction,Light + heat,,1200,h,Retention (%),92.5,not stated,no,,,
+259,10.1021/jacs.6c10673,Zhang Q.,2026,Journal of the American Chemical Society,Single-junction,Dark heat,85.0,1200,h,Retention (%),95.7,not stated,yes,3.11,1.63,9.07
+260,10.1039/d1ta10185d,Kim Y.R.,2022,Journal of Materials Chemistry A,Single-junction,Dark heat,85.0,1000,h,T80 (h),80.0,no,yes,2.59,1.36,7.56
+261,10.1039/d1ta10185d,Kim Y.R.,2022,Journal of Materials Chemistry A,Single-junction,Thermal cycling,,50,c,Retention (%),80.0,no,yes,2.12,0.9,2.36
+262,10.1002/adfm.202532110,Zhang K.,2026,Advanced Functional Materials,Single-junction,Light + heat,,200,h,Retention (%),90.0,not stated,no,,,
+263,10.1002/adma.73161,Liu X.,2026,Advanced Materials,Single-junction,Light + heat,,1000,h,Retention (%),94.2,not stated,no,,,
+264,10.1038/s41467-023-36918-x,Wang T.,2023,Nature Communications ,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),98.0,yes,yes,6.52,7.07,25.28
+265,10.1038/s41467-023-36918-x,Wang T.,2023,Nature Communications ,Single-junction,Thermal cycling,,220,c,Retention (%),95.0,yes,yes,12.04,5.12,13.39
+266,10.1002/smll.202409284,Luo X.,2025,Small,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),96.2,not stated,yes,6.52,7.07,25.28
+267,10.1002/smll.202409284,Luo X.,2025,Small,Single-junction,Light + heat,,1000,h,Retention (%),95.0,not stated,no,,,
+268,10.1038/s41586-024-08103-7,Li S.,2024,Nature,Single-junction,Light + heat,85.0,2000,h,Retention (%),95.0,not stated,yes,10.8,4.57,27.9
+269,10.1002/adma.202517246,Wang S.,2026,Advanced Materials,Single-junction,Damp heat 85/85,85.0,1200,h,Retention (%),90.0,not stated,yes,7.82,8.49,30.34
+270,10.1002/adma.202517246,Wang S.,2026,Advanced Materials,Single-junction,Light + heat,,1100,h,Retention (%),90.0,not stated,no,,,
+271,10.1002/aenm.202504572,Sun X.,2026,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,2500,h,Retention (%),92.0,yes,yes,16.29,17.68,63.2
+272,10.1016/j.joule.2025.102011,Cui Z.,2025,Joule,Single-junction,Light + heat,65.0,1200,h,Retention (%),90.0,not stated,yes,2.01,0.85,5.2
+273,10.1002/adfm.79282,Gong C.,2026,Advanced Functional Materials,Single-junction,Damp heat 85/85,85.0,1563,h,Retention (%),90.0,not stated,yes,10.18,11.06,39.51
+274,10.1002/adfm.76878,Su H.,2026,Advanced Functional Materials,Single-junction,Light + heat,65.0,1440,h,Retention (%),92.0,not stated,yes,2.42,1.02,6.24
+275,10.1016/j.esci.2025.100449,Li Y.,2026,eScience,Single-junction,Damp heat 85/85,85.0,1500,h,Retention (%),93.5,not stated,yes,9.77,10.61,37.92
+276,10.1016/j.esci.2025.100449,Li Y.,2026,eScience,Single-junction,Light + heat,85.0,1185,h,Retention (%),94.2,not stated,yes,6.4,2.71,16.53
+277,10.1002/eem2.12434,Ahmad T.,2023,Energy and Environmental Materials,Single-junction,Damp heat 85/85,85.0,1400,h,Retention (%),85.0,not stated,yes,9.12,9.9,35.39
+278,10.1039/d4tc05482b,Wan Z.,2025,Journal of Materials Chemistry C,Single-junction,Damp heat 85/85,85.0,720,h,Retention (%),83.0,not stated,yes,4.69,5.09,18.2
+279,10.1002/aenm.202302552,Wang T.,2024,Advanced Energy Materials,Single-junction,Light + heat,55.0,1200,h,Retention (%),98.0,yes,yes,1.06,0.45,2.75
+280,10.1002/aenm.202302552,Wang T.,2024,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),95.0,yes,yes,6.52,7.07,25.28
+281,10.1126/science.adj9602,Tang H.,2024,Science,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),98.9,not stated,yes,6.52,7.07,25.28
+282,10.1126/science.adj9602,Tang H.,2024,Science,Single-junction,Light + heat,85.0,1200,h,Retention (%),98.2,not stated,yes,6.48,2.74,16.74
+283,10.1002/adfm.75933,Zhao K.,2026,Advanced Functional Materials,Single-junction,Light + heat,,1500,h,Retention (%),95.15,not stated,no,,,
+284,10.1039/d4tc05247a,Gao Y.,2025,Journal of Materials Chemistry C,Single-junction,Damp heat 85/85,85.0,1560,h,Retention (%),91.0,yes,yes,10.16,11.03,39.44
+285,10.1039/d4tc05247a,Gao Y.,2025,Journal of Materials Chemistry C,Single-junction,Dark heat,100.0,1080,h,Retention (%),88.0,yes,yes,6.11,3.2,17.84
+286,10.1016/j.cej.2023.141758,Xiang J.,2023,Chemical Engineering Journal,Single-junction,Damp heat 85/85,85.0,1008,h,Retention (%),85.0,not stated,yes,6.57,7.13,25.48
+287,10.1002/eem2.12582,Lee H.J.,2024,Energy and Environmental Materials,Single-junction,Damp heat + light,85.0,1000,h,Retention (%),83.1,not stated,yes,5.4,2.28,13.95
+288,10.1038/s41563-026-02494-w,Shen X.,2026,Nature Materials,Single-junction,Light + heat,75.0,1080,h,Retention (%),80.0,not stated,yes,3.31,1.4,8.54
+289,10.1038/s41560-024-01680-x,Chen J.,2025,Nature Energy,Single-junction,Dark heat,65.0,1000,h,Retention (%),90.0,not stated,yes,0.82,0.43,2.39
+290,10.1038/s41560-024-01680-x,Chen J.,2025,Nature Energy,Single-junction,Thermal cycling,,500,c,Retention (%),95.0,not stated,yes,27.36,11.63,30.42
+291,10.1002/advs.202516964,Wu Y.,2026,Advanced Science,Single-junction,Light + heat,85.0,1000,h,Retention (%),95.85,not stated,yes,5.4,2.28,13.95
+292,10.1039/d0ta05583b,Martins J.,2020,Journal of Materials Chemistry A,Single-junction,Thermal cycling,,50,c,Retention (%),100.0,not stated,yes,1.93,0.82,2.15
+293,10.1016/j.scib.2021.02.029,Chen W.,2021,Science Bulletin,Single-junction,Damp heat 85/85,85.0,816,h,T80 (h),80.0,not stated,yes,5.32,5.77,20.63
+294,10.1016/j.scib.2021.02.029,Chen W.,2021,Science Bulletin,Single-junction,Dark heat,80.0,2000,h,Retention (%),98.0,not stated,yes,3.93,2.06,11.48
+295,10.1016/j.scib.2021.02.029,Chen W.,2021,Science Bulletin,Single-junction,Outdoor,,1272,h,Retention (%),95.0,yes,no,,,
+296,10.1038/s41560-020-00749-7,Jang Y.-W.,2021,Nature Energy,Single-junction,Damp heat 85/85,85.0,1056,h,Retention (%),94.0,yes,yes,6.88,7.47,26.7
+297,10.1016/j.cej.2020.128100,Hsiao K.-C.,2021,Chemical Engineering Journal,Single-junction,Damp heat 85/85,85.0,1500,h,Retention (%),80.0,yes,yes,9.77,10.61,37.92
+298,10.1039/d1ta02015c,Wu H.,2021,Journal of Materials Chemistry A,Single-junction,Dark heat,85.0,480,h,Retention (%),90.0,not stated,yes,1.24,0.65,3.63
+299,10.1039/d1ta02015c,Wu H.,2021,Journal of Materials Chemistry A,Single-junction,Thermal cycling,,50,c,Retention (%),100.0,not stated,yes,2.74,1.16,3.04
+300,10.1016/j.optmat.2020.110377,Nair S.,2020,Optical Materials,Single-junction,Outdoor,,504,h,Retention (%),37.0,not stated,no,,,
+301,10.1021/jacs.0c09647,Xi J.,2020,Journal of the American Chemical Society,Single-junction,Damp heat 85/85,85.0,600,h,Retention (%),93.8,yes,yes,3.91,4.24,15.17
+302,10.1002/solr.202000197,Hsiao K.-C.,2020,Solar RRL,Single-junction,Damp heat 85/85,85.0,1300,h,Retention (%),80.0,yes,yes,8.47,9.2,32.86
+303,10.1002/aenm.202003301,Sha Y.,2021,Advanced Energy Materials,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),91.0,yes,yes,6.52,7.07,25.28
+304,10.1002/aenm.202003301,Sha Y.,2021,Advanced Energy Materials,Single-junction,Light + heat,60.0,1000,h,Retention (%),90.0,yes,yes,1.23,0.52,3.17
+305,10.1021/acsami.1c11628,Mohammadi M.,2021,ACS Applied Materials and Interfaces,Single-junction,Damp heat 85/85,85.0,100,h,Retention (%),80.0,yes,yes,0.65,0.71,2.53
+306,10.1021/acsami.1c11628,Mohammadi M.,2021,ACS Applied Materials and Interfaces,Single-junction,Outdoor,,500,h,Retention (%),90.0,yes,no,,,
+307,10.1038/s41560-019-0471-6,Prasanna R.,2019,Nature Energy,Single-junction,Dark heat,85.0,1000,h,Retention (%),95.0,no,yes,2.59,1.36,7.56
+308,10.1038/s41560-019-0471-6,Prasanna R.,2019,Nature Energy,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),95.0,yes,yes,6.52,7.07,25.28
+309,10.1016/j.xcrp.2021.100648,Kobayashi E.,2021,Cell Reports Physical Science,Single-junction,Damp heat 85/85,85.0,3000,h,Retention (%),92.0,yes,yes,19.55,21.22,75.84
+310,10.1016/j.joule.2021.11.003,Liu J.,2021,Joule,Tandem,Damp heat 85/85,85.0,500,h,Retention (%),87.0,not stated,yes,3.26,3.54,12.64
+311,10.1002/solr.201800004,He J.,2018,Solar RRL,Single-junction,Damp heat 85/85,85.0,500,h,Retention (%),90.0,not stated,yes,3.26,3.54,12.64
+312,10.1126/science.abb8687,Peng J.,2021,Science,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),91.7,yes,yes,6.52,7.07,25.28
+313,10.1016/j.joule.2018.11.026,Ahmad S.,2019,Joule,Single-junction,Damp heat 85/85,85.0,168,h,Retention (%),95.0,no,yes,1.09,1.19,4.25
+314,10.1002/admt.201800390,Heo J.H.,2019,Advanced Materials Technologies,Single-junction,Damp heat + light,85.0,1000,h,Retention (%),94.8,yes,yes,5.4,2.28,13.95
+315,10.1021/acsenergylett.0c01901,Kim Y.,2020,ACS Energy Letters,Single-junction,Damp heat 85/85,85.0,1000,h,Retention (%),97.0,yes,yes,6.52,7.07,25.28
+316,10.1039/c7ee01931a,Kim Y.C.,2017,Energy and Environmental Science,Single-junction,Dark heat,85.0,1000,h,Retention (%),97.0,not stated,yes,2.59,1.36,7.56
+317,10.1039/d0ta01860k,Zhang W.,2020,Journal of Materials Chemistry A,Single-junction,Dark heat,85.0,400,h,Retention (%),80.0,no,yes,1.04,0.54,3.02
+318,10.1016/j.cej.2026.182099,Zheng K.,2026,Chemical Engineering Journal,Single-junction,Light + heat,55.0,1000,h,Retention (%),88.0,not stated,yes,0.89,0.37,2.29
+319,10.1002/adma.202006910,Hang P.,2021,Advanced Materials,Single-junction,Light + heat,60.0,1000,h,Retention (%),92.0,not stated,yes,1.23,0.52,3.17
+320,10.1002/smll.201904746,Arora N.,2019,Small,Single-junction,Light + heat,60.0,2000,h,Retention (%),95.0,not stated,yes,2.45,1.04,6.33
+321,10.1038/s41566-025-01790-2,Wei X.,2026,Nature Photonics,Single-junction,Dark heat,85.0,4680,h,Retention (%),85.5,no,yes,12.11,6.35,35.38
+322,10.1038/s41566-025-01790-2,Wei X.,2026,Nature Photonics,Single-junction,Light + heat,65.0,1021,h,Retention (%),99.9,no,yes,1.71,0.72,4.42
+323,10.1038/s41560-026-02161-z,Li B.,2026,Nature Energy,Tandem,Light + heat,85.0,1180,h,Retention (%),90.0,yes,yes,6.37,2.69,16.46
+324,10.1002/aenm.202504572,Sun X.,2026,Advanced Energy Materials,Single-junction,Outdoor,,720,h,Retention (%),100.0,yes,no,,,
+325,10.1002/adfm.75159,Lin L.,2026,Advanced Functional Materials,Single-junction,Light + heat,,700,h,Retention (%),91.2,not stated,no,,,
+326,10.1016/j.solener.2024.113174,Mavlonov A.,2025,Solar Energy,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),84.2,yes,yes,13.03,14.15,50.56
+327,10.1021/acsaelm.6c00264,Yao Z.,2026,ACS Applied Electronic Materials,Single-junction,Light + heat,,1000,h,Retention (%),90.3,not stated,no,,,
+328,10.1126/science.abm8566,Li Z.,2022,Science,Single-junction,Light + heat,,1500,h,Retention (%),98.0,not stated,no,,,
+329,10.1002/adma.73390,Li Y.,2026,Advanced Materials,Single-junction,Thermal cycling,,100,c,Retention (%),90.0,no,yes,1.97,0.84,2.19
+330,10.1002/adma.73390,Li Y.,2026,Advanced Materials,Single-junction,Light + heat,,1000,h,Retention (%),91.0,no,no,,,
+331,10.1021/acs.langmuir.5c02273,Amornkitbamrung U.,2025,Langmuir,Single-junction,Light + heat,,2000,h,Retention (%),91.9,not stated,no,,,
+332,10.1002/aenm.202401029,Wang G.,2024,Advanced Energy Materials,Single-junction,Thermal cycling,,400,c,Retention (%),97.0,yes,yes,21.89,9.3,24.34
+333,10.1002/adfm.202214381,Hang P.,2023,Advanced Functional Materials,Single-junction,Light + heat,,700,h,Retention (%),80.0,not stated,no,,,
+334,10.1021/acsenergylett.4c00988,Chen M.,2024,ACS Energy Letters,Single-junction,Thermal cycling,,2500,c,Retention (%),80.0,no,yes,136.82,58.15,152.12
+335,10.1002/adma.202205309,Min H.,2022,Advanced Materials,Single-junction,Light + heat,,3000,h,Retention (%),75.0,yes,no,,,
+336,10.1016/j.solener.2025.114131,Haryński Ł.,2026,Solar Energy,Single-junction,Light + heat,,740,h,Retention (%),80.0,not stated,no,,,
+337,10.1002/adfm.202403321,Zhi C.,2024,Advanced Functional Materials,Single-junction,Light + heat,,1000,h,Retention (%),85.0,not stated,no,,,
+338,10.1002/anie.7010126,Liu K.,2026,Angewandte Chemie - International Edition,Single-junction,Light + heat,,2500,h,Retention (%),91.0,no,no,,,
+339,10.1002/smll.75360,Sun W.,2026,Small,Single-junction,Light + heat,,1000,h,Retention (%),92.4,not stated,no,,,
+340,10.1016/j.joule.2025.102314,Tao R.,2026,Joule,Single-junction,Thermal cycling,,1010,c,Retention (%),95.0,yes,yes,55.27,23.49,61.46
+341,10.1016/j.mssp.2025.110247,Krobkrong N.,2026,Materials Science in Semiconductor Processing,Single-junction,Damp heat 85/85,85.0,2700,h,Retention (%),80.0,yes,yes,17.59,19.1,68.26
+342,10.1038/s41467-024-49617-y,Du S.,2024,Nature Communications ,Single-junction,Light + heat,,1300,h,Retention (%),96.0,not stated,no,,,
+343,10.1002/adma.74220,Yang J.,2026,Advanced Materials,Single-junction,Light + heat,,1000,h,Retention (%),94.7,yes,no,,,
+344,10.1039/d4ee05319b,Qu S.,2025,Energy and Environmental Science,Single-junction,Damp heat 85/85,85.0,1500,h,Retention (%),91.0,not stated,yes,9.77,10.61,37.92
+345,10.1021/acsaem.4c01975,Wang H.,2024,ACS Applied Energy Materials,Single-junction,Light + heat,,350,h,Retention (%),90.0,not stated,no,,,
+346,10.1002/anie.202410721,Jiang Y.,2024,Angewandte Chemie - International Edition,Single-junction,Damp heat 85/85,85.0,2000,h,Retention (%),95.0,not stated,yes,13.03,14.15,50.56
+347,10.1002/anie.202410721,Jiang Y.,2024,Angewandte Chemie - International Edition,Single-junction,Light + heat,,2000,h,Retention (%),99.0,not stated,no,,,
+348,10.1021/acsami.7b07625,Shi L.,2017,ACS Applied Materials and Interfaces,Single-junction,Damp heat 85/85,85.0,540,h,Retention (%),100.0,yes,yes,3.52,3.82,13.65
+349,10.1021/acsami.7b07625,Shi L.,2017,ACS Applied Materials and Interfaces,Single-junction,Thermal cycling,,200,c,Retention (%),100.0,yes,yes,10.95,4.65,12.17
+350,10.1039/d0tc02438d,He X.,2020,Journal of Materials Chemistry C,Single-junction,Light + heat,,1000,h,Retention (%),80.0,not stated,no,,,
+351,10.1039/c9ta03131f,Tavakoli M.M.,2019,Journal of Materials Chemistry A,Single-junction,Light + heat,,300,h,Retention (%),85.0,not stated,no,,,
+352,10.1002/aenm.201800794,Tavakoli M.M.,2018,Advanced Energy Materials,Single-junction,Light + heat,,500,h,Retention (%),91.0,not stated,no,,,
+353,10.1039/d6tc00324a,Luo Q.,2026,Journal of Materials Chemistry C,Single-junction,Light + heat,,1000,h,Retention (%),89.0,not stated,no,,,
+354,10.1016/j.mtener.2024.101654,Kumar Y.,2024,Materials Today Energy,Single-junction,Light + heat,,900,h,Retention (%),100.0,not stated,no,,,
+355,10.1002/anie.202421063,Li Z.,2025,Angewandte Chemie - International Edition,Single-junction,Thermal cycling,,200,c,Retention (%),95.0,not stated,yes,10.95,4.65,12.17
+356,10.1002/smll.74000,Pan Y.,2026,Small,Single-junction,Light + heat,,1000,h,Retention (%),82.0,not stated,no,,,
+357,10.1002/advs.75170,Jiang X.,2026,Advanced Science,Single-junction,Light + heat,,1500,h,Retention (%),90.0,not stated,no,,,
+358,10.1002/adfm.79543,Zhang J.,2026,Advanced Functional Materials,Single-junction,Thermal cycling,,500,c,Retention (%),92.8,not stated,yes,27.36,11.63,30.42
+359,10.1016/j.jcis.2019.06.003,Zhang B.,2019,Journal of Colloid and Interface Science,Single-junction,Light + heat,,600,h,Retention (%),80.0,not stated,no,,,
+360,10.1038/nenergy.2017.9,Bush K.A.,2017,Nature Energy,Single-junction,Damp heat 85/85,85.0,1008,h,Retention (%),100.0,yes,yes,6.57,7.13,25.48
+361,10.1126/science.aaz5074,Xu J.,2020,Science,Single-junction,Light + heat,60.0,1000,h,Retention (%),96.0,no,yes,1.23,0.52,3.17
+362,10.1016/j.joule.2021.11.003,Liu J.,2021,Joule,Tandem,Outdoor,,1032,h,Retention (%),93.0,yes,no,,,
+363,10.1021/acsenergylett.1c01018,De Bastiani M.,2021,ACS Energy Letters,Tandem,Outdoor,,4368,h,Retention (%),50.0,yes,no,,,
+364,10.1126/science.abn8910,Liu J.,2022,Science,Tandem,Damp heat 85/85,85.0,1000,h,Retention (%),95.4,yes,yes,6.52,7.07,25.28
+365,10.1021/acsenergylett.2c01488,Chen B.,2022,ACS Energy Letters,Tandem,Dark heat,85.0,120,h,Retention (%),92.0,yes,yes,0.31,0.16,0.91
+366,10.1002/adma.202303139,Zhang F.,2023,Advanced Materials,Tandem,Light + heat,65.0,1000,h,Retention (%),89.0,yes,yes,1.68,0.71,4.33
+367,10.1007/s40820-024-01406-4,Liu J.,2024,Nano-Micro Letters,Tandem,Dark heat,85.0,1650,h,Retention (%),90.0,no,yes,4.27,2.24,12.47
+368,10.1038/s41467-025-62389-3,Zhang D.,2025,Nature Communications,Tandem,Light + heat,80.0,1000,h,Retention (%),91.7,yes,yes,4.08,1.73,10.54
+369,10.1039/d5ee03475b,Du S.,2025,Energy and Environmental Science,Single-junction,Light + heat,55.0,983,h,Retention (%),90.0,no,yes,0.87,0.37,2.25
+370,10.1016/j.mtener.2025.101917,Noh Y.I.,2025,Materials Today Energy,Tandem,Damp heat 85/85,85.0,800,h,Retention (%),90.0,yes,yes,5.21,5.66,20.22
+371,10.1126/science.adx1745,Er-Raji O.,2025,Science,Tandem,Damp heat 85/85,85.0,1000,h,Retention (%),83.4,yes,yes,6.52,7.07,25.28
+372,10.1126/science.adz3698,Li N.,2025,Science,Tandem,Light + heat,85.0,1400,h,Retention (%),90.0,no,yes,7.56,3.2,19.53
+373,10.1002/adom.202502504,Ning S.,2025,Advanced Optical Materials,Tandem,Damp heat 85/85,85.0,718,h,Retention (%),94.0,yes,yes,4.68,5.08,18.15
+374,10.1126/science.ady6874,Zhang B.,2025,Science,Tandem,Light + heat,65.0,1200,h,Retention (%),96.2,yes,yes,2.01,0.85,5.2
+375,10.1038/s41467-025-66480-7,Han Z.,2025,Nature Communications ,Tandem,Light + heat,65.0,1100,h,Retention (%),90.0,yes,yes,1.85,0.78,4.77
+376,10.1016/j.nanoen.2025.111520,Li J.,2025,Nano Energy,Single-junction,Dark heat,85.0,5000,h,Retention (%),84.0,no,yes,12.94,6.78,37.79
+377,10.1002/anie.202509279,Yan B.,2025,Angewandte Chemie - International Edition,Tandem,Light + heat,85.0,800,h,Retention (%),90.0,yes,yes,4.32,1.83,11.16
+378,10.1021/acsenergylett.5c03056,Dong X.,2025,ACS Energy Letters,Tandem,Dark heat,85.0,680,h,Retention (%),80.0,no,yes,1.76,0.92,5.14
+379,10.1002/adma.202519563,Liang L.,2026,Advanced Materials,Tandem,Light + heat,85.0,800,h,Retention (%),95.0,not stated,yes,4.32,1.83,11.16
+380,10.1038/s41467-025-59896-8,Luo Y.,2025,Nature Communications,Single-junction,Light + heat,60.0,400,h,Retention (%),99.0,no,yes,0.49,0.21,1.27
+381,10.1016/j.cej.2025.165837,Jung Y.,2025,Chemical Engineering Journal,Tandem,Damp heat 85/85,85.0,816,h,Retention (%),83.8,yes,yes,5.32,5.77,20.63
+382,10.1002/adfm.202526009,He Z.,2026,Advanced Functional Materials,Tandem,Light + heat,60.0,200,h,Retention (%),99.0,no,yes,0.25,0.1,0.63
+383,10.1016/j.nanoen.2026.111995,Zhang X.,2026,Nano Energy,Tandem,Outdoor,,720,h,Retention (%),100.0,yes,no,,,
+384,10.1038/s41467-026-73656-2,Yan T.,2026,Nature Communications ,Tandem,Dark heat,65.0,500,h,Retention (%),85.1,yes,yes,0.41,0.21,1.2
+385,10.1038/s41586-026-10970-1,Luo C.,2026,Nature,Tandem,Damp heat 85/85,85.0,2000,h,Retention (%),95.0,yes,yes,13.03,14.15,50.56
+386,10.1038/s41467-026-72160-x,Luo M.,2026,Nature Communications,Tandem,Light + heat,85.0,1000,h,Retention (%),83.0,yes,yes,5.4,2.28,13.95
+387,10.1038/s41566-026-01925-z,Kim G.,2026,Nature Photonics,Tandem,Light + heat,85.0,240,h,Retention (%),89.0,no,yes,1.3,0.55,3.35

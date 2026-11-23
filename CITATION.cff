@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, calculator or data, please cite the review and this repository."
+title: "perovskite-tropical-stability: stress-budget model, data and calculator for converting perovskite stability tests into tropical field years"
+version: 1.0.0
+date-released: 2026-11-23
+license: MIT
+repository-code: "https://github.com/savisha3/perovskite-tropical-stability"
+url: "https://savisha3.github.io/perovskite-tropical-stability/"
+authors:
+  - family-names: Mahalingam
+    given-names: Savisha
+    affiliation: "Institute of Sustainable Energy, Universiti Tenaga Nasional (UNITEN), Malaysia"
+keywords:
+  - perovskite solar cells
+  - stability testing
+  - tropical climate
+  - accelerated testing
+  - damp heat
+preferred-citation:
+  type: article
+  title: "Are lab stability tests tropical-ready? Mapping heat, humidity and UV stress in the tropics to perovskite solar cell degradation"
+  authors:
+    - family-names: Mahalingam
+      given-names: Savisha
+  status: submitted

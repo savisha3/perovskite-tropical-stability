@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab-to-field calculator for perovskite stability tests</title>
+<style>
+  :root { --ink:#1d2433; --muted:#5b6475; --line:#d9dee7; --bg:#f6f7f9; --card:#fff; --accent:#0b6e4f; --warn:#8a4b00; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+  header { background:#fff; border-bottom:1px solid var(--line); }
+  .wrap { max-width:1040px; margin:0 auto; padding:20px; }
+  h1 { font-size:1.45rem; margin:0 0 4px; }
+  header p { margin:0; color:var(--muted); }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap:18px; }
+  @media (max-width:820px){ .grid { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:18px; }
+  .card h2 { font-size:1.05rem; margin:0 0 12px; }
+  label { display:block; font-size:.9rem; color:var(--muted); margin:10px 0 4px; }
+  input, select { width:100%; padding:8px 10px; font:inherit; border:1px solid var(--line); border-radius:7px; background:#fff; color:var(--ink); }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .seg { display:flex; gap:6px; flex-wrap:wrap; }
+  .seg button { flex:1; padding:8px 10px; border:1px solid var(--line); border-radius:7px; background:#fff; font:inherit; cursor:pointer; color:var(--ink); }
+  .seg button.on { border-color:var(--accent); background:#e8f4ef; color:var(--accent); font-weight:600; }
+  .btn { margin-top:12px; padding:9px 14px; border:0; border-radius:7px; background:var(--accent); color:#fff; font:inherit; cursor:pointer; }
+  .btn.sec { background:#fff; color:var(--accent); border:1px solid var(--accent); }
+  .hide { display:none; }
+  .note { font-size:.85rem; color:var(--muted); }
+  .status { font-size:.9rem; margin-top:10px; color:var(--muted); min-height:1.3em; }
+  .status.err { color:var(--warn); }
+  .results { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:6px; }
+  .res { border:1px solid var(--line); border-radius:9px; padding:14px; }
+  .res .k { font-size:.85rem; color:var(--muted); }
+  .res .v { font-size:2rem; font-weight:700; line-height:1.15; }
+  .res .s { font-size:.85rem; color:var(--muted); }
+  table { width:100%; border-collapse:collapse; font-size:.9rem; margin-top:8px; }
+  th, td { text-align:left; padding:6px 4px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; }
+  footer { color:var(--muted); font-size:.85rem; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Lab-to-field calculator for perovskite stability tests</h1>
+  <p>Converts an accelerated laboratory test into the field years it represents at a chosen site, using hourly weather data and the stress-budget model of the review <em>“Are lab stability tests tropical-ready?”</em></p>
+</div></header>
+
+<main class="wrap">
+<div class="grid">
+  <section class="card">
+    <h2>1. Site</h2>
+    <div class="seg" id="siteMode">
+      <button data-v="city" class="on">Built-in city</button>
+      <button data-v="fetch">Any location</button>
+      <button data-v="file">Upload file</button>
+    </div>
+    <div id="pane-city">
+      <label for="city">City (NASA POWER hourly data, 2015–2024)</label>
+      <select id="city"></select>
+    </div>
+    <div id="pane-fetch" class="hide">
+      <div class="row">
+        <div><label for="lat">Latitude (°, north +)</label><input id="lat" type="number" step="0.01" placeholder="3.14"></div>
+        <div><label for="lon">Longitude (°, east +)</label><input id="lon" type="number" step="0.01" placeholder="101.69"></div>
+      </div>
+      <button class="btn sec" id="fetchBtn">Download weather from NASA POWER</button>
+      <p class="note">Downloads hourly data for 2015–2024 (ten requests, about a minute). If your browser blocks the download, use “Upload file”.</p>
+    </div>
+    <div id="pane-file" class="hide">
+      <label for="file">NASA POWER hourly CSV</label>
+      <input id="file" type="file" accept=".csv,text/csv">
+      <p class="note">Get it from the <a href="https://power.larc.nasa.gov/data-access-viewer/" target="_blank" rel="noopener">NASA POWER Data Access Viewer</a>: community “Renewable Energy”, temporal average “Hourly”, parameters T2M, RH2M, ALLSKY_SFC_SW_DWN and WS10M, format CSV. Ten years are recommended.</p>
+      <div class="row">
+        <div><label for="flat">Latitude (only if not in file)</label><input id="flat" type="number" step="0.01"></div>
+        <div><label for="flon">Longitude (only if not in file)</label><input id="flon" type="number" step="0.01"></div>
+      </div>
+    </div>
+    <label for="tilt">Module tilt (°), facing the equator</label>
+    <input id="tilt" type="number" step="1" min="0" max="90">
+    <p class="note">Default: rounded latitude, minimum 10°.</p>
+    <div class="status" id="siteStatus"></div>
+  </section>
+
+  <section class="card">
+    <h2>2. Laboratory test</h2>
+    <div class="seg" id="testMode">
+      <button data-v="DH" class="on">Damp heat</button>
+      <button data-v="L">Light + heat</button>
+      <button data-v="D">Dark heat</button>
+      <button data-v="TC">Thermal cycling</button>
+    </div>
+    <div class="row">
+      <div><label for="dur" id="durLabel">Duration (h)</label><input id="dur" type="number" min="1" value="1000"></div>
+      <div id="f-T"><label for="T">Test temperature (°C)</label><input id="T" type="number" value="85"></div>
+    </div>
+    <div class="row">
+      <div id="f-RH"><label for="RH">Test relative humidity (%)</label><input id="RH" type="number" value="85"></div>
+      <div id="f-I" class="hide"><label for="I">Light intensity (suns)</label><input id="I" type="number" step="0.1" value="1"></div>
+      <div id="f-Ea"><label for="Ea">Activation energy (eV)</label><input id="Ea" type="number" step="0.01" value="0.6"></div>
+      <div id="f-dT" class="hide"><label for="dT">Cycle swing (K)</label><input id="dT" type="number" value="125"></div>
+    </div>
+    <div class="row">
+      <div><label for="target">Target service life (years)</label><input id="target" type="number" value="25"></div>
+      <div id="f-tandem" class="hide"><label for="tandem">Device</label>
+        <select id="tandem"><option value="0.61">Single junction (0.61 eV)</option><option value="0.43">Perovskite/silicon tandem (0.43 eV)</option></select></div>
+    </div>
+    <p class="note" id="testNote"></p>
+  </section>
+</div>
+
+<section class="card" style="margin-top:18px">
+  <h2>3. Result</h2>
+  <div class="results">
+    <div class="res"><div class="k">Open rack</div><div class="v" id="rOpen">–</div><div class="s" id="sOpen"></div></div>
+    <div class="res"><div class="k">Rooftop (close-mounted)</div><div class="v" id="rRoof">–</div><div class="s" id="sRoof"></div></div>
+  </div>
+  <table><thead><tr><th>At this site</th><th>Open rack</th><th>Rooftop</th></tr></thead><tbody id="extra"></tbody></table>
+  <p class="note">A test that ends before the device fails gives a <strong>lower bound</strong>: the device covers <em>at least</em> this many field years for this stress, not a predicted lifetime. Each test covers one stress; a device is limited by its weakest test. Model details: Section 3 and ESI Section S2 of the review.</p>
+</section>
+
+<footer class="wrap">
+  <p>Model: Faiman module temperature (open rack U<sub>0</sub> = 25, U<sub>1</sub> = 6.84; rooftop U<sub>0</sub> = 20, U<sub>1</sub> = 0), Erbs decomposition and isotropic sky, module-surface humidity at constant vapour pressure, Peck damp-heat model (n = 2.66), (G/1000)<sup>0.72</sup>·Arrhenius for light and heat, Arrhenius for dark heat, Coffin–Manson exponent 2 for thermal cycling. Weather: <a href="https://power.larc.nasa.gov" target="_blank" rel="noopener">NASA POWER</a> (please cite the NASA POWER Project when using these data).</p>
+  <p>Source code and data: <a href="https://github.com/savisha3/perovskite-tropical-stability">github.com/savisha3/perovskite-tropical-stability</a>. If you use this calculator, please cite: S. Mahalingam, “Are lab stability tests tropical-ready? Mapping heat, humidity and UV stress in the tropics to perovskite solar cell degradation”.</p>
+</footer>
+</main>
+
+<script src="calculator/model.js"></script>
+<script>
+(function () {
+  var SB = window.StressBudget;
+  var CITIES = [
+    ['Kuala Lumpur','kuala_lumpur',3.14,10,'Malaysia'],['Penang','penang',5.41,10,'Malaysia'],['Alor Setar','alor_setar',6.12,10,'Malaysia'],
+    ['Kota Bharu','kota_bharu',6.13,10,'Malaysia'],['Kuching','kuching',1.55,10,'Malaysia'],['Kota Kinabalu','kota_kinabalu',5.98,10,'Malaysia'],
+    ['Singapore','singapore',1.35,10,'Singapore'],['Jakarta','jakarta',-6.21,10,'Indonesia'],['Surabaya','surabaya',-7.25,10,'Indonesia'],
+    ['Bandung','bandung',-6.91,10,'Indonesia'],['Bangkok','bangkok',13.76,14,'Thailand'],['Chiang Mai','chiang_mai',18.79,19,'Thailand'],
+    ['Ho Chi Minh City','ho_chi_minh_city',10.82,11,'Vietnam'],['Hanoi','hanoi',21.03,21,'Vietnam'],['Manila','manila',14.60,15,'Philippines'],
+    ['Phnom Penh','phnom_penh',11.56,12,'Cambodia'],['Yangon','yangon',16.84,17,'Myanmar'],
+    ['Miami','miami',25.76,25,'Reference sites'],['Riyadh','riyadh',24.71,25,'Reference sites'],['Freiburg','freiburg',47.99,35,'Reference sites']];
+  var $ = function (id) { return document.getElementById(id); };
+  var state = { site: 'city', test: 'DH', rec: null, recKey: null, prepared: null, prepKey: null, cache: {} };
+
+  // city list
+  var groups = {};
+  CITIES.forEach(function (c, i) { (groups[c[4]] = groups[c[4]] || []).push([c, i]); });
+  Object.keys(groups).forEach(function (g) {
+    var og = document.createElement('optgroup'); og.label = g;
+    groups[g].forEach(function (p) { var o = document.createElement('option'); o.value = p[1]; o.textContent = p[0][0]; og.appendChild(o); });
+    $('city').appendChild(og);
+  });
+
+  function seg(id, key, cb) {
+    $(id).addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      Array.prototype.forEach.call($(id).children, function (x) { x.classList.toggle('on', x === b); });
+      state[key] = b.dataset.v; cb();
+    });
+  }
+  function status(msg, err) { var s = $('siteStatus'); s.textContent = msg || ''; s.className = 'status' + (err ? ' err' : ''); }
+
+  var DEFAULTS = {
+    DH: { dur: 1000, T: 85, Ea: 0.6, note: 'Peck model: rate ∝ RH^2.66 · exp(−Ea/kT). Standard IEC test: 85 °C, 85% RH, 1,000 h. Ea range in the review: 0.3–0.95 eV.' },
+    L:  { dur: 1000, T: 85, Ea: 0.61, note: 'Rate ∝ (G/1000)^0.72 · exp(−Ea/kT); test at the stated device temperature and intensity. Ea 0.61 eV (single junction) or 0.43 eV (tandem).' },
+    D:  { dur: 1000, T: 85, Ea: 0.6, note: 'Arrhenius model with the module temperature of every hour.' },
+    TC: { dur: 200, note: 'Coffin–Manson model, exponent 2. Standard IEC cycle: −40 to 85 °C (125 K swing). Field swing = daily maximum − minimum module temperature.' }
+  };
+  function setTest() {
+    var t = state.test, d = DEFAULTS[t];
+    $('dur').value = d.dur; $('durLabel').textContent = t === 'TC' ? 'Number of cycles' : 'Duration (h)';
+    if (d.T) $('T').value = d.T; if (d.Ea) $('Ea').value = d.Ea;
+    $('f-T').classList.toggle('hide', t === 'TC');
+    $('f-RH').classList.toggle('hide', t !== 'DH');
+    $('f-I').classList.toggle('hide', t !== 'L');
+    $('f-Ea').classList.toggle('hide', t === 'TC');
+    $('f-dT').classList.toggle('hide', t !== 'TC');
+    $('f-tandem').classList.toggle('hide', t !== 'L');
+    if (t === 'L') $('tandem').value = '0.61';
+    $('testNote').textContent = d.note;
+    compute();
+  }
+  function setSite() {
+    ['city', 'fetch', 'file'].forEach(function (k) { $('pane-' + k).classList.toggle('hide', state.site !== k); });
+    status('');
+    if (state.site === 'city') loadCity(); else { state.rec = null; clearResults(); }
+  }
+
+  function useRecord(rec, key, defaultTilt) {
+    state.rec = rec; state.recKey = key; state.prepared = null;
+    var lat = rec.lat != null ? rec.lat : parseFloat($('flat').value);
+    $('tilt').value = defaultTilt != null ? defaultTilt : (isNaN(lat) ? 10 : Math.max(10, Math.round(Math.abs(lat))));
+    compute();
+  }
+
+  function loadCity() {
+    var c = CITIES[+$('city').value], key = 'city:' + c[1];
+    if (state.cache[key]) { useRecord(state.cache[key], key, c[3]); status(c[0] + ': ' + (state.cache[key].n / 8766).toFixed(1) + ' years of hourly data.'); return; }
+    status('Loading ' + c[0] + ' …');
+    fetch('data/weather/' + c[1] + '.csv').then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+      .then(function (txt) {
+        var rec = SB.parsePower(txt); state.cache[key] = rec;
+        if (+$('city').value === CITIES.indexOf(c)) { useRecord(rec, key, c[3]); status(c[0] + ': ' + (rec.n / 8766).toFixed(1) + ' years of hourly data.'); }
+      }).catch(function (e) { status('Could not load the city data (' + e.message + ').', true); });
+  }
+
+  function mergeRecords(list) {
+    var out = { lat: list[0].lat, lon: list[0].lon, std: 'LST', data: {}, n: 0 };
+    Object.keys(list[0].data).forEach(function (k) { out.data[k] = [].concat.apply([], list.map(function (r) { return r.data[k]; })); });
+    out.n = out.data.YEAR.length; return out;
+  }
+  $('fetchBtn').addEventListener('click', function () {
+    var lat = parseFloat($('lat').value), lon = parseFloat($('lon').value);
+    if (isNaN(lat) || isNaN(lon) || Math.abs(lat) > 90 || Math.abs(lon) > 180) { status('Enter a valid latitude and longitude.', true); return; }
+    var years = []; for (var y = 2015; y <= 2024; y++) years.push(y);
+    var done = 0, parts = [];
+    status('Downloading from NASA POWER … 0/10');
+    var base = 'https://power.larc.nasa.gov/api/temporal/hourly/point?parameters=T2M,RH2M,ALLSKY_SFC_SW_DWN,WS10M&community=RE&format=CSV&time-standard=LST'
+      + '&latitude=' + lat + '&longitude=' + lon;
+    var chain = Promise.resolve();
+    years.forEach(function (y, i) {
+      chain = chain.then(function () {
+        return fetch(base + '&start=' + y + '0101&end=' + y + '1231').then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+          .then(function (txt) { var rec = SB.parsePower(txt); if (rec.lat == null) { rec.lat = lat; rec.lon = lon; } parts[i] = rec; status('Downloading from NASA POWER … ' + (++done) + '/10'); });
+      });
+    });
+    chain.then(function () {
+      var rec = mergeRecords(parts); if (rec.lat == null) { rec.lat = lat; rec.lon = lon; }
+      useRecord(rec, 'fetch:' + lat + ',' + lon, null);
+      status('NASA POWER data loaded: ' + (rec.n / 8766).toFixed(1) + ' years at ' + rec.lat + ', ' + rec.lon + '.');
+    }).catch(function (e) {
+      status('The browser could not download from NASA POWER (' + e.message + '). Download the CSV yourself (see “Upload file”) and upload it.', true);
+    });
+  });
+
+  $('file').addEventListener('change', function () {
+    var f = this.files[0]; if (!f) return;
+    status('Reading ' + f.name + ' …');
+    f.text().then(function (txt) {
+      var rec = SB.parsePower(txt);
+      useRecord(rec, 'file:' + f.name + f.size, null);
+      var yrs = rec.n / 8766;
+      status(f.name + ': ' + yrs.toFixed(1) + ' years of hourly data' + (rec.lat != null ? ' at ' + rec.lat + ', ' + rec.lon : '') + '.' + (yrs < 0.99 ? ' Less than a year of data: results will be biased by season.' : ''), yrs < 0.99);
+    }).catch(function (e) { status(e.message, true); });
+  });
+
+  function clearResults() { ['rOpen', 'rRoof'].forEach(function (id) { $(id).textContent = '–'; }); $('sOpen').textContent = $('sRoof').textContent = ''; $('extra').innerHTML = ''; }
+  function fmt(x) { if (!isFinite(x)) return '∞'; if (x >= 100) return Math.round(x).toLocaleString('en'); return x.toFixed(1); }
+  function fmtInt(x) { return isFinite(x) ? Math.round(x).toLocaleString('en') : '∞'; }
+
+  function compute() {
+    if (!state.rec) { clearResults(); return; }
+    try {
+      var tilt = parseFloat($('tilt').value);
+      var opts = { tilt: isNaN(tilt) ? null : tilt };
+      if (state.rec.lat == null) { opts.lat = parseFloat($('flat').value); opts.lon = parseFloat($('flon').value); }
+      var pk = state.recKey + '|' + opts.tilt + '|' + opts.lat + '|' + opts.lon;
+      if (state.prepKey !== pk) {
+        var copy = { lat: state.rec.lat, lon: state.rec.lon, std: state.rec.std, n: state.rec.n, data: {} };
+        Object.keys(state.rec.data).forEach(function (k) { copy.data[k] = state.rec.data[k].slice(); });
+        var p = SB.prepare(copy, opts);
+        state.prepared = { p: p, open: SB.moduleConditions(p, 'open'), roof: SB.moduleConditions(p, 'roof') };
+        state.prepKey = pk;
+        if (p.issues.length) status(p.issues.join('; '));
+      }
+      var t = state.test, dur = parseFloat($('dur').value), target = parseFloat($('target').value);
+      var o = { T: parseFloat($('T').value), RH: parseFloat($('RH').value), Ea: parseFloat($('Ea').value), dT: parseFloat($('dT').value) };
+      if (t === 'L') { var I = parseFloat($('I').value) || 1; dur = dur * Math.pow(I, 0.72); }
+      var unit = t === 'TC' ? 'cycles' : 'h';
+      var rows = '';
+      ['open', 'roof'].forEach(function (mt) {
+        var m = state.prepared[mt];
+        var perYear = SB.labHoursPerYear(m, t, o);
+        var yrs = dur / perYear;
+        $(mt === 'open' ? 'rOpen' : 'rRoof').textContent = fmt(yrs) + ' yr';
+        $(mt === 'open' ? 'sOpen' : 'sRoof').textContent = 'One field year = ' + fmtInt(perYear) + ' ' + unit + ' of this test';
+      });
+      var need = function (mt) { var per = SB.labHoursPerYear(state.prepared[mt], t, o); var x = target * per; if (t === 'L') x /= Math.pow(parseFloat($('I').value) || 1, 0.72); return x; };
+      rows += '<tr><td>Test length needed for ' + target + ' years</td><td>' + fmtInt(need('open')) + ' ' + unit + '</td><td>' + fmtInt(need('roof')) + ' ' + unit + '</td></tr>';
+      var hot = function (m) { var c = 0; for (var i = 0; i < m.n; i++) if (m.Tm[i] >= 55 && m.G[i] >= 200) c++; return c / m.years; };
+      var mx = function (m) { var x = -1e9; for (var i = 0; i < m.n; i++) if (m.Tm[i] > x) x = m.Tm[i]; return x; };
+      rows += '<tr><td>Hours per year lit and ≥ 55 °C</td><td>' + fmtInt(hot(state.prepared.open)) + '</td><td>' + fmtInt(hot(state.prepared.roof)) + '</td></tr>';
+      rows += '<tr><td>Highest module temperature</td><td>' + mx(state.prepared.open).toFixed(1) + ' °C</td><td>' + mx(state.prepared.roof).toFixed(1) + ' °C</td></tr>';
+      $('extra').innerHTML = rows;
+    } catch (e) { clearResults(); status(e.message, true); }
+  }
+
+  seg('siteMode', 'site', setSite);
+  seg('testMode', 'test', setTest);
+  $('city').addEventListener('change', loadCity);
+  $('tandem').addEventListener('change', function () { $('Ea').value = this.value; compute(); });
+  ['tilt', 'dur', 'T', 'RH', 'I', 'Ea', 'dT', 'target', 'flat', 'flon'].forEach(function (id) { $(id).addEventListener('input', compute); });
+  setTest(); loadCity();
+})();
+</script>
+</body>
+</html>
